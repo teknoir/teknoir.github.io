@@ -11,7 +11,7 @@ Here you will find our constantly growing archive of guides and tutorials that w
 
 _**Please note that this wiki is under construction (UC). We're working on getting the most fundamental parts ready as soon as possible. We appreciate your support and understanding in this regard.**_
 
-![](https://i.ibb.co/ggK6F8P/divider.png)
+![](/assets/divider.png)
 
 {% for item in site.data.avangardtoplevel.docs %}
 * [{{ item.title }}]({{ item.url }})

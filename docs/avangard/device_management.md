@@ -9,7 +9,7 @@ permalink: /avangard/device-management/
 
 _**Please note that this wiki is under construction (UC). We're working on getting the most fundamental parts ready as soon as possible. We appreciate your support and understanding in this regard.**_
 
-![](https://i.ibb.co/ggK6F8P/divider.png)
+![](/assets/divider.png)
 
 ##### Device naming scheme
 What designates the device name

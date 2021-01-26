@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![](https://i.ibb.co/c1gTM17/Git-Hub-Wiki-Banner.png)
 
 Welcome to the Teknoir Wiki.
@@ -6,7 +10,7 @@ Here you will find our constantly growing archive of guides and tutorials that w
 
 _**Please note that this wiki is under construction (UC). We're working on getting the most fundamental parts ready as soon as possible. We appreciate your support and understanding in this regard.**_
 
-![](https://i.ibb.co/ggK6F8P/divider.png)
+![](/assets/divider.png)
 
 ## Table of Contents
 
@@ -41,7 +45,7 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 * [Publishing Models](#publishing-models)
 * [Updating Models](#updating-models)
 
-![](https://i.ibb.co/ggK6F8P/divider.png)
+![](/assets/divider.png)
 
 ## 1. Getting Started
 

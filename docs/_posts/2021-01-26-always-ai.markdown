@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Use Always AI together with Teknoir in 5 minutes"
+title:  Use Always AI together with Teknoir in 5 minutes
 date:   2021-01-26 14:37:16 +0100
 categories: blog
 ---
