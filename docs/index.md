@@ -10,43 +10,43 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 
 ## Table of Contents
 
-**[1. Getting Started](https://github.com/teknoir/wiki/wiki#1-getting-started)**
-* [Account Management](https://github.com/teknoir/wiki/wiki#account-management)
-* [The Platform](https://github.com/teknoir/wiki/wiki#the-platform)
-* [Crash Courses](https://github.com/teknoir/wiki/wiki#crash-courses)
+**[1. Getting Started](#1-getting-started)**
+* [Account Management](#account-management)
+* [The Platform](#the-platform)
+* [Crash Courses](#crash-courses)
 
-**[2. Device Management](https://github.com/teknoir/wiki/wiki#2-device-management)**
-* [Add, Edit & Delete](https://github.com/teknoir/wiki/wiki#add-edit--delete)
-* [Apps](https://github.com/teknoir/wiki/wiki#apps)
-* [Troubleshooting Devices](https://github.com/teknoir/wiki/wiki#troubleshooting-devices)
+**[2. Device Management](#2-device-management)**
+* [Add, Edit & Delete](#add-edit--delete)
+* [Apps](#apps)
+* [Troubleshooting Devices](#troubleshooting-devices)
 
-**[3. User Management](https://github.com/teknoir/wiki/wiki#3-user-management)**
-* [User List](https://github.com/teknoir/wiki/wiki#user-list)
-* [User Permissions](https://github.com/teknoir/wiki/wiki#user-permissions)
-* [Security & Integrity](https://github.com/teknoir/wiki/wiki#security--integrity)
+**[3. User Management](#3-user-management)**
+* [User List](#user-list)
+* [User Permissions](#user-permissions)
+* [Security & Integrity](#security--integrity)
 
-**[4. Application Management](https://github.com/teknoir/wiki/wiki#4-application-management)**
-* [Your Subscriptions](https://github.com/teknoir/wiki/wiki#your-subscriptions)
-* [Your Apps](https://github.com/teknoir/wiki/wiki#your-apps)
-* [Ratings & Reviews](https://github.com/teknoir/wiki/wiki#ratings--reviews)
-* [Billing & Payments](https://github.com/teknoir/wiki/wiki#billing--payments)
+**[4. Application Management](#4-application-management)**
+* [Your Subscriptions](#your-subscriptions)
+* [Your Apps](#your-apps)
+* [Ratings & Reviews](#ratings--reviews)
+* [Billing & Payments](#billing--payments)
 
-**[5. Application Development](https://github.com/teknoir/wiki/wiki#5-application-development)**
-* [Creating Apps](https://github.com/teknoir/wiki/wiki#creating-apps)
-* [Publishing Apps](https://github.com/teknoir/wiki/wiki#publishing-apps)
-* [Updating Apps](https://github.com/teknoir/wiki/wiki#updating-apps)
+**[5. Application Development](#5-application-development)**
+* [Creating Apps](#creating-apps)
+* [Publishing Apps](#publishing-apps)
+* [Updating Apps](#updating-apps)
 
-**[6. Training](https://github.com/teknoir/wiki/wiki#6-ai-training)**
-* [Creating Models](https://github.com/teknoir/wiki/wiki#creating-models)
-* [Publishing Models](https://github.com/teknoir/wiki/wiki#publishing-models)
-* [Updating Models](https://github.com/teknoir/wiki/wiki#updating-models)
+**[6. Training](#6-ai-training)**
+* [Creating Models](#creating-models)
+* [Publishing Models](#publishing-models)
+* [Updating Models](#updating-models)
 
 ![](https://i.ibb.co/ggK6F8P/divider.png)
 
 ## 1. Getting Started
 
 ### Account Management
-* [Create New Account](https://github.com/teknoir/wiki/wiki/Create-New-Account)
+* [Create New Account](/create-new-account)
 * _Manage Account (UC)_
 * _Manage Billing & Payments (UC)_
 * _Delete Account (UC)_
@@ -63,14 +63,14 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 ## 2. Device Management
 
 ### Add, Edit & Delete
-* [Add New Device](https://github.com/teknoir/wiki/wiki/Add-New-Device)
+* [Add New Device](/add-new-device)
 * _Edit Device (UC)_
-* [Delete Device](https://github.com/teknoir/wiki/wiki/Delete-Device)
+* [Delete Device](/delete-device)
 ### Apps
 * _Add App To Device (UC)_
 * _Delete App From Device (UC)_
 ### Troubleshooting Devices
-* [Troubleshoot Local Device](https://github.com/teknoir/wiki/wiki/Troubleshooting-Devices)
+* [Troubleshoot Local Device](/troubleshooting-devices)
 * _Troubleshoot Remote Device (UC)_
 
 ## 3. User Management
