@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Devices
+title: Troubleshooting Local Devices
 layout: page
 permalink: /troubleshooting-local-devices/
 ---
