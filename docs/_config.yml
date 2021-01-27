@@ -6,9 +6,9 @@ description: >-
   Delivering AI-IoT-Ops as a platform.
 github_username:  teknoir
 twitter_username: teknoir
-#author:
-#  name: "Anders Åslund"
-#  email: anders.aslund@teknoir.ai
+author:
+  name: "Anders Åslund"
+  email: anders.aslund@teknoir.ai
 
 # Build settings
 markdown: kramdown
