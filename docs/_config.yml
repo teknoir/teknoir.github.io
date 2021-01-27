@@ -1,6 +1,7 @@
 theme: jekyll-theme-tactile
 title: Teknoir Wiki
 url: https://teknoir.github.io
+baseurl: "/"
 description: >-
   Documentation project for the Teknoir platform and partners.
   Delivering AI-IoT-Ops as a platform.
