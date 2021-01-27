@@ -66,7 +66,7 @@ sudo kubectl get pods
 
 > If the camera app works STATUS should be Running.
 
-Check if the camera service is running:
+Read the logs to see if you can se any issues there:
 ```bash
 sudo kubectl logs -f $(sudo kubectl get pods -l app=camera -o name)
 ```
