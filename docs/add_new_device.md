@@ -114,4 +114,4 @@ This concludes the tutorial on how to add a new device to your namespace.
 
 ## Having problems?
 
-Maybe [this](troubleshooting.md) troubleshooting guide can be of help.
+Maybe [this](index.md#troubleshooting-devices) troubleshooting guide can be of help.
