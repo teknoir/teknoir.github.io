@@ -10,7 +10,7 @@ In the year 2019, a group of misfits banded together to reshape the future of in
 intelligence for machines. The plan envisioned seamless interconnectivity, easy application, and endless adaptability.
 
 **Contact**<br>
-Please visit our official homepage for official contact info:<br>
+Please visit our homepage for contact info:<br>
 [http://teknoir.ai](http://teknoir.ai)
 
 
