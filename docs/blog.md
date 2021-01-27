@@ -8,7 +8,7 @@ permalink: /blog/
 
 Here you will find our constantly growing archive of guides and tutorials that will help you get started in our platform.
 
-![](/assets/divider.png)
+---
 
 {% if site.paginate %}
 {% assign posts = paginator.posts %}

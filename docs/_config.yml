@@ -1,11 +1,14 @@
 theme: jekyll-theme-tactile
 title: Teknoir Wiki
 url: https://teknoir.github.io
-# email: anders.aslund@teknoir.ai
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Documentation project for the Teknoir platform and partners.
+  Delivering AI-IoT-Ops as a platform.
 github_username:  teknoir
 twitter_username: teknoir
+#author:
+#  name: "Anders Åslund"
+#  email: anders.aslund@teknoir.ai
 
 # Build settings
 markdown: kramdown
@@ -13,6 +16,22 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-relative-links
+
+# Minima
+minima:
+#  skin: dark
+  social_links:
+    youtube_channel: UCmVNAoN2xfGAPv2jyNpUP6g
+    youtube_channel_name: teknoir
+    linkedin: teknoir
+    facebook: teknoir
+    twitter: teknoir
+    github: teknoir
+
+header_pages:
+  - blog.md
+  - about.md
+  - partners.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

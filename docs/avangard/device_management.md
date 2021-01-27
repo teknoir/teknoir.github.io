@@ -1,15 +1,14 @@
 ---
+title: Device management
 layout: page
 permalink: /avangard/device-management/
 ---
 
 [<- Table of Contents](index.md)
 
-## Device management
-
 _**Please note that this wiki is under construction (UC). We're working on getting the most fundamental parts ready as soon as possible. We appreciate your support and understanding in this regard.**_
 
-![](/assets/divider.png)
+---
 
 ##### Device naming scheme
 What designates the device name

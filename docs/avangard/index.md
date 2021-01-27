@@ -1,17 +1,16 @@
 ---
+title: Avangard Innovative Wiki
 layout: page
 permalink: /avangard/
 ---
 
 [<- Table of Contents](/)
 
-## Welcome to the Avangard Innovative Wiki!
-
 Here you will find our constantly growing archive of guides and tutorials that will help you get started in our platform.
 
 _**Please note that this wiki is under construction (UC). We're working on getting the most fundamental parts ready as soon as possible. We appreciate your support and understanding in this regard.**_
 
-![](/assets/divider.png)
+---
 
 {% for item in site.data.avangardtoplevel.docs %}
 * [{{ item.title }}]({{ item.url }})

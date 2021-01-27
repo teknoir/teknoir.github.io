@@ -10,7 +10,7 @@ Here you will find our constantly growing archive of guides and tutorials that w
 
 _**Please note that this wiki is under construction (UC). We're working on getting the most fundamental parts ready as soon as possible. We appreciate your support and understanding in this regard.**_
 
-![](/assets/divider.png)
+---
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 * [Publishing Models](#publishing-models)
 * [Updating Models](#updating-models)
 
-![](/assets/divider.png)
+---
 
 ## 1. Getting Started
 
