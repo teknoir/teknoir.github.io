@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![](https://i.ibb.co/c1gTM17/Git-Hub-Wiki-Banner.png)
+![](/assets/Git-Hub-Wiki-Banner.png)
 
 Welcome to the Teknoir Wiki.
 
@@ -68,22 +68,26 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 
 ### Add, Edit & Delete
 * [Add New Device](/add-new-device)
-* _Edit Device (UC)_
+* [Edit Device](/edit-device)
 * [Delete Device](/delete-device)
+
 ### Apps
 * _Add App To Device (UC)_
 * _Delete App From Device (UC)_
+
 ### Troubleshooting Devices
-* [Troubleshoot Local Device](/troubleshooting-devices)
+* [Troubleshoot Local Device](/troubleshooting-local-devices)
 * _Troubleshoot Remote Device (UC)_
 
 ## 3. User Management
 
 ### User List
 * _Manage Filtering (UC)_
+
 ### User Permissions
 * _Manage User Access (UC)_
 * _Invite User (UC)_
+
 ### Security & Integrity
 * _Manage User Accounts (UC)_
 
@@ -91,14 +95,17 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 
 ### Your Subscriptions
 * _Manage App Subscriptions (UC)_
+
 ### Your Apps
 * _Edit Your App Store Page (UC)_
 * _Edit App Pages (UC)_
 * _Manage App Licensing (UC)_
 * _Manage App Users (UC)_
+
 ### Ratings & Reviews
 * _View User Ratings (UC)_
 * _Report User Ratings (UC)_
+
 ### Billing & Payments
 * _Manage Billing (UC)_
 * _View Payments (UC)_
@@ -107,8 +114,10 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 
 ### Creating Apps
 * _Create New App (UC)_
+
 ### Publishing Apps
 * _Publish App to App Store (UC)_
+
 ### Updating Apps
 * _Update App (UC)_
 
@@ -116,8 +125,10 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 
 ### Creating Models
 * _Create New Model (UC)_
+
 ### Publishing Models
 * _Publish New Model to App Store (UC)_
+
 ### Updating Models
 * _Update New Model (UC)_  
 

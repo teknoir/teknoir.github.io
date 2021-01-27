@@ -1,7 +1,7 @@
 ---
-title: Delete Device
+title: Edit Device
 layout: page
-permalink: /delete-device/
+permalink: /edit-device/
 ---
 
 [<- Table of Contents](index.md)

@@ -1,11 +1,10 @@
 ---
+title: Add a new device
 layout: page
 permalink: /add-new-device/
 ---
 
 [<- Table of Contents](index.md)
-
-## Add a new device
 
 In this tutorial we will show you how to add a new device to a namespace using the Teknoir Console.
 
