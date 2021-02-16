@@ -127,7 +127,7 @@ avahi-browse -rt _axis-video._tcp
 ### Change settings wia camera webgui
 If you need to change settings on the camera, you can do that via an external tunnel via the device.
 
-**Create http tunnel to device**
+**Create http tunnel to camera**
 1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on edit the device (the pen icon)
