@@ -10,11 +10,31 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 
 ---
 ## Topics
+* [Device is lost](#device-is-lost)
+* [Missing SD-card](#missing-sd-card)
 * [Camera issues](#camera-issues)
   * [Use Devstudio on the device](#use-devstudio-on-the-device)
   * [Check camera app logs](#check-camera-app-logs)
   * [Check camera IP with service discovery](#check-camera-ip-with-service-discovery)
   * [Change settings wia camera webgui](#change-settings-wia-camera-webgui)
+
+## Device is lost
+Normally the device have a self healing behavior. That means it will try to re-connect to the platform
+by restarting different subsystems ontrolled by a self healing algorithm.
+
+Reasons it might not connect:
+* Data plan quota exceeded
+
+Hardware sometimes break, and in that case it is easy to prepare and test an exchange unit.
+Just note the name of the device, follow the steps in [Missing SD-card](#missing-sd-card) section.
+
+## Missing SD-card
+If a SD-card is missing it is easy to create a new.
+
+1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+2. Choose namespace
+3. Find the device that is missing its SD-card
+4. Continue to follow the instructions [here](https://teknoir.github.io/add-new-device/#flash-the-image-to-an-sd-card)
 
 ## Camera issues
 If you notice that there are no images being received from a device, there are ways to investigate this.
