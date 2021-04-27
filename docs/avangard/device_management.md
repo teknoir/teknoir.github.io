@@ -13,7 +13,7 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 * TBD
 
 ## What to do before site installation
-What to do prior on site install of a Sustayn device
+What to do prior on site install of a Sustayn device. A sort of QA testing before putting it in the field.
 
 ### Insert SD card
 Describe how device is identified, how to choose correct SD card, markings etc
@@ -26,6 +26,8 @@ What to think about when closing it up again
 
 ### Power up
 Sequence or wiring etc to power up the Sustayn device
+
+Before actually powering it up please reed this full section, to make sure you are ready to power up the device.
 
 #### Set up maintenance Wifi
 The device can start up on the SIM-cards data plan but to minimize the usage a maintenance Wifi can be set up before it
@@ -41,7 +43,7 @@ is powered up.
 
 > Please refer to the Wifi router documentation on how to set up WPA2 PSK Wifi.
 
-> Due to technical limitations at the time of creation the first 81 devices does not have this feature.
+> **Due to technical limitations at the time of creation some of the first 81 devices does not have this feature.**
 
 The device will not automatically jump to the maintenance Wifi, it will only connect to it if restarted/rebooted.
 
@@ -58,6 +60,9 @@ Max 5 minutes
 If rotating, it has never connected - double check name/marking of device/sd-card
 If red hover to see when device was last seen + error
 Green ok
+
+> A good idea is, once done with configuration, turn off the maintenance Wifi and perform this uplink verification again
+> , just to make sure the LTE setup is ok
 
 #### Create tunnel to camera
 To be able to see where the camera is pointing, picture quality and edit settings, a tunnel can be created.
