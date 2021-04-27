@@ -16,7 +16,7 @@ _**Please note that this wiki is under construction (UC). We're working on getti
 The two main apps that does the edge computing is very different, one is based on the Teknoir Devstudio and the other one is
 based on Darknet.
 
-Lets first shortly define them.
+Lets first define the apps.
 
 ### Devstudio
 The Devstudio(called `devstudio` in GUI) is a low-code programming environment, that can be used both in the cloud and on an edge device.
@@ -170,7 +170,7 @@ Perform the following steps:
 4. Open the newly created folder and upload the `flows.json` file
 5. Browse to root by clicking the folder icon to the left of the / in the path directory and open
    build_sustayn_event_processing.ipynb
-6. Before running the notebook, we need to update the VERSION variable to match the new model name
+6. Before running the notebook, we need to update the VERSION variable to match the new `flows.json` version
 7. Run the notebook from the menu (Run -> Run All Cells)
 8. At the very bottom of the notebook page, two links will appear. Click Run link here to monitor the pipeline progress
 9. Navigate to the [DevStudio Servers](https://console.teknoir.cloud/_/devstudios/?ns=avangard-production)
