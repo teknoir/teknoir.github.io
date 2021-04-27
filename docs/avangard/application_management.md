@@ -86,7 +86,7 @@ Perform the following steps:
 #### To import new model files
 1. Navigate to the [Notebook Servers](https://console.teknoir.cloud/_/jupyter/) section using the left side menu in the 
    Teknoir Console.
-2. *Connect to Your Notebook Servers and browse to /cloudstorage/models
+2. *Connect to Your Notebook Server and browse to /cloudstorage/models
    <img src="/assets/avangard/navigate_to_cloudstorage.png" alt="image-status" style="zoom:100%;" />
    > *Navigating to cloudstorage is a bit slower than other file system operations, as it is a persistent object storage
 3. Create a new folder inside /models with the name of the new version of the model, for example `0.0.1-alpha`.
@@ -125,7 +125,7 @@ created (`0.0.1-alpha`).
    the left side menu in the Teknoir Console.
 2. Connect to Your DevStudio Server and make sure you're viewing the Device Config tab.
    <img src="/assets/avangard/device_config.png" alt="image-status" style="zoom:100%;" />
-3. Double-click the add sustayn-detect-recyclables app node.
+3. Double-click the add sustayn app node.
    <img src="/assets/avangard/select_app.png" alt="image-status" style="zoom:100%;" />
 4. Change the image variable to match the name of the new app version (`0.0.1-alpha`) then click Done.
    <img src="/assets/avangard/edit_app_node.png" alt="image-status" style="zoom:150%;" />
@@ -155,14 +155,28 @@ The new version of the app, with the updated model, is now running on selected d
 Please learn how to deploy the Darknet (sustayn) app above, and this process is very similar.
 
 #### Updating the model and deploying a new version of the app
-The Devstudio app use Node-Red, an open source framework for low-code programming. The `flows.json` file
-
+The Devstudio app use Node-Red, an open source framework, for low-code programming. The `flows.json` file
+holds the configuration of the Devstudio app.
 
 Perform the following steps:
-* Upload all the necessary files to Cloudstorage*
+* Upload the `flows.json` file to Cloudstorage
 * Run a notebook to update the model
 * Deploy a new version of the app to selected device(s)
 
-> *Cloudstorage is the persistent object storage in the Teknoir Platform
-
-#### To import new flow file
+#### TLDR
+1. Navigate to the [Notebook Servers](https://console.teknoir.cloud/_/jupyter/)
+2. Connect to Your Notebook Server and browse to /cloudstorage/flows
+3. Create a new folder inside /flows with the name of the new version, for example `0.0.1-alpha`
+4. Open the newly created folder and upload the `flows.json` file
+5. Browse to root by clicking the folder icon to the left of the / in the path directory and open
+   build_sustayn_event_processing.ipynb
+6. Before running the notebook, we need to update the VERSION variable to match the new model name
+7. Run the notebook from the menu (Run -> Run All Cells)
+8. At the very bottom of the notebook page, two links will appear. Click Run link here to monitor the pipeline progress
+9. Navigate to the [DevStudio Servers]
+10. Connect to Your DevStudio Server and make sure you're viewing the Device Config tab
+11. Double-click the add devstudio app node.
+12. Change the image variable to match the name of the new app version then click Done.
+13. Now, double-click the configure node to the far right in the flow.
+14. Select which device(s) you want to deploy the new version of the app
+15. Deploy in the top right corner of the interface.
