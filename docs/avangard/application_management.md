@@ -78,7 +78,7 @@ deploy a new version of the app to selected device(s).
 
 Perform the following steps:
 * Upload all the necessary files to Cloudstorage*
-* Run a notebook to update the model
+* Run a notebook to update the Darknet (sustayn) app
 * Deploy a new version of the app to selected device(s)
 
 > *Cloudstorage is the persistent object storage in the Teknoir Platform
@@ -160,7 +160,7 @@ holds the configuration of the Devstudio app.
 
 Perform the following steps:
 * Upload the `flows.json` file to Cloudstorage
-* Run a notebook to update the model
+* Run a notebook to update the Devstudio app
 * Deploy a new version of the app to selected device(s)
 
 #### TLDR
