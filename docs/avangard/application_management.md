@@ -68,13 +68,13 @@ app. Some of the differences will be touched in a separate section here on this 
 
 ### Updating the Darknet (sustayn) app
 The following is a step-by-step guide to updating the machine learning model for
-detecting recyclable objects and deploying new versions of the Sustayn Detect
-Recyclables App to selected device(s) via the Teknoir Platform.
+detecting recyclable objects and deploying new versions of the Darknet (sustayn) app
+to selected device(s) via the Teknoir Platform.
 
 #### Updating the model and deploying a new version of the app
 The Darknet App uses the base Yolo V3 weights, config, and objects files. To update the
-Sustayn Detect Recyclables app, we must train the model with updated weights, config,
-and objects files and then deploy a new version of the app to selected device(s).
+app, we must train the model with updated weights, config, and objects files and then 
+deploy a new version of the app to selected device(s).
 
 Perform the following steps:
 * Upload all the necessary files to Cloudstorage*
@@ -87,24 +87,16 @@ Perform the following steps:
 1. Navigate to the [Notebook Servers](https://console.teknoir.cloud/_/jupyter/) section using the left side menu in the 
    Teknoir Console.
 2. *Connect to Your Notebook Servers and browse to /cloudstorage/models
-
-<img src="/assets/avangard/navigate_to_cloudstorage.png" alt="image-status" style="zoom:100%;" />
-
-> *Navigating to cloudstorage is a bit slower than other file system operations, as it is a persistent object storage
-
+   <img src="/assets/avangard/navigate_to_cloudstorage.png" alt="image-status" style="zoom:100%;" />
+   > *Navigating to cloudstorage is a bit slower than other file system operations, as it is a persistent object storage
 3. Create a new folder inside /models with the name of the new version of the model, for example `0.0.1-alpha`.
-
-<img src="/assets/avangard/new_folder.png" alt="image-status" style="zoom:100%;" />
-
+   <img src="/assets/avangard/new_folder.png" alt="image-status" style="zoom:100%;" />
 4. Open the newly created folder and upload the model.cfg, model.weights and obj.names files by dragging and dropping 
    the files into the folder view in your web browser or by using the upload button highlighted in green below.
-
-<img src="/assets/avangard/upload.png" alt="image-status" style="zoom:100%;" />
-
+   <img src="/assets/avangard/upload.png" alt="image-status" style="zoom:100%;" />
 5. Watch the progress bar at the bottom of the page and wait for the upload to finish.
-
-> When the upload is finished, ensure the file sizes are correct and representative of your local file sizes to avoid 
-> corrupt browser uploads. To do this, simply hover with the mouse pointer over the file name to show file information.
+   > When the upload is finished, ensure the file sizes are correct and representative of your local file sizes to avoid
+   > corrupt browser uploads. To do this, simply hover with the mouse pointer over the file name to show file information.
 
 #### Run the notebook
 1. Browse to root by clicking the folder icon to the left of the / in the path directory and open 
@@ -180,3 +172,19 @@ created (`0.0.1-alpha`).
 7. Lastly, click Deploy in the top right corner of the interface.
    
 The new version of the app, with the updated model, is now running on selected device(s).
+
+### Updating the Devstudio(devstudio) app
+Please learn how to deploy the Darknet (sustayn) app above, and this process is very similar.
+
+#### Updating the model and deploying a new version of the app
+The Devstudio app use Node-Red, an open source framework for low-code programming. The `flows.json` file
+
+
+Perform the following steps:
+* Upload all the necessary files to Cloudstorage*
+* Run a notebook to update the model
+* Deploy a new version of the app to selected device(s)
+
+> *Cloudstorage is the persistent object storage in the Teknoir Platform
+
+#### To import new flow file
