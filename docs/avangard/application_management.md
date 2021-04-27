@@ -100,7 +100,7 @@ Perform the following steps:
 
 #### Run the notebook
 1. Browse to root by clicking the folder icon to the left of the / in the path directory and open 
-   build_sustayn_detect_recyclables_app.ipynb by double clicking it.
+   build_sustayn_darknet.ipynb by double clicking it.
    <img src="/assets/avangard/root.png" alt="image-status" style="zoom:100%;" />
 2. Before running the notebook, we need to update the VERSION variable to match the new model name (`0.0.1-alpha`), i.e., 
    the same name you gave the folder where you put the new files in.
