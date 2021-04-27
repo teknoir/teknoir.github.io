@@ -125,7 +125,7 @@ created (`0.0.1-alpha`).
    the left side menu in the Teknoir Console.
 2. Connect to Your DevStudio Server and make sure you're viewing the Device Config tab.
    <img src="/assets/avangard/device_config.png" alt="image-status" style="zoom:100%;" />
-3. Double-click the add sustayn app node.
+3. Double-click the add `sustayn` app node.
    <img src="/assets/avangard/select_app.png" alt="image-status" style="zoom:100%;" />
 4. Change the image variable to match the name of the new app version (`0.0.1-alpha`) then click Done.
    <img src="/assets/avangard/edit_app_node.png" alt="image-status" style="zoom:150%;" />
@@ -173,9 +173,9 @@ Perform the following steps:
 6. Before running the notebook, we need to update the VERSION variable to match the new model name
 7. Run the notebook from the menu (Run -> Run All Cells)
 8. At the very bottom of the notebook page, two links will appear. Click Run link here to monitor the pipeline progress
-9. Navigate to the [DevStudio Servers]
+9. Navigate to the [DevStudio Servers](https://console.teknoir.cloud/_/devstudios/?ns=avangard-production)
 10. Connect to Your DevStudio Server and make sure you're viewing the Device Config tab
-11. Double-click the add devstudio app node.
+11. Double-click the add `devstudio` app node.
 12. Change the image variable to match the name of the new app version then click Done.
 13. Now, double-click the configure node to the far right in the flow.
 14. Select which device(s) you want to deploy the new version of the app
