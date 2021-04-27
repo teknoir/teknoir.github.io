@@ -19,7 +19,7 @@ based on Darknet.
 Lets first shortly define them.
 
 ### Devstudio
-The Devstudio(called `darknet` in GUI) is a low-code programming environment, that can be used both in the cloud and on an edge device.
+The Devstudio(called `devstudio` in GUI) is a low-code programming environment, that can be used both in the cloud and on an edge device.
 This Devstudio runs on the device.
 
 The Devstudio has several functions in this setup.
@@ -151,8 +151,8 @@ created (`0.0.1-alpha`).
    
 The new version of the app, with the updated model, is now running on selected device(s).
 
-### Updating the Devstudio(devstudio) app
-Please learn how to deploy the Darknet (sustayn) app above, and this process is very similar.
+### Updating the Devstudio (devstudio) app
+Please learn how to deploy the Darknet (sustayn) app above, this process is very similar.
 
 #### Updating the model and deploying a new version of the app
 The Devstudio app use Node-Red, an open source framework, for low-code programming. The `flows.json` file
