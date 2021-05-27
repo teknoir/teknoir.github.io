@@ -45,12 +45,12 @@ Connect to the Devstudio running on the device to see if images are picked up th
 **Create http tunnel to device**
 1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
 2. Choose namespace
-3. Click on edit the device (the pen icon)
+3. Click on the device name
 4. Enable tunneling, and if there is no devstudio tunnel already click `+ Add`, to add a devstudio tunnel
 5. Fill in:
-    * type: internal
+    * type: internal http
     * name: devstudio
-    * host: devstudio
+    * target: devstudio
     * port: 1880
 
 **Open Devstudio running on the device**
@@ -66,12 +66,12 @@ To see if the camera app works correctly you need to run some commands on the de
 **Create ssh tunnel to device**
 1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
 2. Choose namespace
-3. Click on edit the device (the pen icon)
+3. Click on the device name
 4. Enable tunneling, and if there is no ssh tunnel already click `+ Add`, to add a ssh tunnel
 5. Fill in:
     * type: ssh
     * name: ssh
-    * host: localhost
+    * target: localhost
     * port: 22
 
 **Open web terminal to device**
@@ -99,12 +99,12 @@ I you think the camera might be missconfigured, you can try to see if it is disc
 **Create ssh tunnel to device**
 1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
 2. Choose namespace
-3. Click on edit the device (the pen icon)
+3. Click on the device name
 4. Enable tunneling, and if there is no ssh tunnel already click `+ Add`, to add a ssh tunnel
 5. Fill in:
    * type: ssh
    * name: ssh
-   * host: localhost
+   * target: localhost
    * port: 22
 
 **Open web terminal to device**
@@ -130,12 +130,12 @@ If you need to change settings on the camera, you can do that via an external tu
 **Create http tunnel to camera**
 1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
 2. Choose namespace
-3. Click on edit the device (the pen icon)
+3. Click on the device name
 4. Enable tunneling, and if there is no camera tunnel already click `+ Add`, to add a camera tunnel
 5. Fill in:
-    * type: external
+    * type: external http
     * name: camera
-    * host: <IP to camera, default is 192.168.0.90>
+    * target: <IP to camera, default is 192.168.0.90>
     * port: 80
 
 **Open the camera webgui**
