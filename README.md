@@ -8,5 +8,6 @@ https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-
 Install Ruby 3
 
 ```shell
+cd docs
 rbenv exec bundle exec jekyll serve
 ```

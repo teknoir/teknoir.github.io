@@ -1,0 +1,100 @@
+# Top menu
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Partners"
+    url: /partners/
+  - title: "About"
+    url: /about/
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /getting-started/quick-start-guide/
+      - title: "Sign up"
+        url: /getting-started/sign-up/
+      - title: "Add your first device"
+        url: /getting-started/add-your-first-device/
+      - title: "Collate data"
+        url: /under-construction/
+      - title: "Deploy your first ML App"
+        url: /under-construction/
+      - title: "Ingest and aggregate data"
+        url: /under-construction/
+      - title: "Label data"
+        url: /under-construction/
+      - title: "Train a new custom ML model"
+        url: /under-construction/
+      - title: "Deploy your own ML model"
+        url: /under-construction/
+
+  - title: Documentation
+    children:
+      - title: "Device Management"
+        url: /device-management/
+      - title: "App Management"
+        url: /under-construction/
+      - title: "Tunnel Management"
+        url: /under-construction/
+      - title: "Devstudio Management"
+        url: /under-construction/
+      - title: "Notebook Management"
+        url: /under-construction/
+      - title: "Workflows"
+        url: /under-construction/
+      - title: "Label Studio"
+        url: /under-construction/
+
+  - title: MLOps
+    children:
+      - title: "Working with Flows"
+        url: /under-construction/
+      - title: "Working with Pipelines"
+        url: /under-construction/
+      - title: "Monitoring"
+        url: /under-construction/
+      - title: "Stream processing"
+        url: /under-construction/
+
+  - title: Advanced Topics
+    children:
+      - title: "Ansible"
+        url: /under-construction/
+      - title: "Pipelines"
+        url: /under-construction/
+      - title: "Custom Models"
+        url: /under-construction/
+      - title: "Custom Apps"
+        url: /under-construction/
+
+  - title: Troubleshooting
+    children:
+      - title: "Devices"
+        url: /devices/troubleshooting/
+      - title: "Tunnels"
+        url: /tunnels/troubleshooting/
+
+avangard-innovative:
+  - title: Documentation
+    children:
+    - title: Device Management
+      url: /partners/avangard-innovative/device-management/
+    - title: Device Naming
+      url: /partners/avangard-innovative/device-naming/
+    - title: Device Labeling
+      url: /partners/avangard-innovative/device-labeling/
+    - title: Apps
+      url: /partners/avangard-innovative/apps/
+    - title: Update Apps
+      url: /partners/avangard-innovative/update-apps/
+  - title: Troubleshooting
+    children:
+    - title: Device is lost
+      url: /partners/avangard-innovative/troubleshooting-device-is-lost/
+    - title: Camera issues
+      url: /partners/avangard-innovative/troubleshooting-camera-issues/
+    - title: Missing SD-card
+      url: /partners/avangard-innovative/troubleshooting-missing-sd-card/
+

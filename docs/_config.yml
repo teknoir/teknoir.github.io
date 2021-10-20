@@ -1,48 +1,225 @@
-theme: jekyll-theme-tactile
-title: Teknoir Wiki
+# Check settings here: https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_config.yml
+locale: "en-US"
+title: MLOps Platform
+title_separator: "-"
+subtitle: Wiki
+name: &name "Teknoir"
+description: &description "A low-code platform to automate everything machine-learning."
 url: https://teknoir.github.io
 baseurl: "/"
-description: >-
-  Documentation project for the Teknoir platform and partners.
-  Delivering AI-IoT-Ops as a platform.
-github_username:  teknoir
+repository: "teknoir/teknoir.github.io"
+github_username: teknoir
 twitter_username: teknoir
-#author:
-#  name: "Anders Åslund"
-#  email: anders.aslund@teknoir.ai
+logo: "/assets/logo-white.svg"
+words_per_minute         : 200
+comments:
+  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
 
-# Build settings
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               : &twitter "teknoir"
+facebook:
+  username               : &facebook "teknoir"
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/logo-white.svg" # Open Graph/Twitter default site image
+# For specifying social profiles, used in _includes/seo.html
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/teknoir"
+    - "https://www.facebook.com/teknoir"
+
+# Analytics
+#analytics:
+#  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+#  google:
+#    tracking_id          : "UA-2011187-3" # Replace this with your ID, or delete
+#    anonymize_ip         : true
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/teknoir"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/teknoir"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCmVNAoN2xfGAPv2jyNpUP6g"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/teknoir"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _docs
+  - _partners
+  - _troubleshooting-devices
+  - _troubleshooting-tunnels
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - .idea
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
-#theme: minima
-remote_theme: jekyll/minima
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-relative-links
+  - jekyll-include-cache
+  - jekyll-data
+  - jekyll-archives
 
-# Minima
-minima:
-#  skin: dark
-  social_links:
-    youtube_channel: UCmVNAoN2xfGAPv2jyNpUP6g
-    youtube_channel_name: teknoir
-    linkedin: teknoir
-    facebook: teknoir
-    twitter: teknoir
-    github: teknoir
+minimal_mistakes_skin: "neon" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+breadcrumbs: true
 
-header_pages:
-  - blog.md
-  - about.md
-  - partners.md
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  partners:
+    output: true
+    permalink: /:collection/:path/
+  troubleshooting-devices:
+    output: true
+    permalink: /:collection/:path/
+  troubleshooting-tunnels:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+#      classes: wide
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+#      classes: wide
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+#      classes: wide
+  # _partners
+  - scope:
+      path: "_partners"
+      type: partners
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+#      classes: wide
+  # _troubleshooting-devices
+  - scope:
+      path: ""
+      type: troubleshooting-devices
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+#      classes: wide
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  # _troubleshooting-tunnels
+  - scope:
+      path: ""
+      type: troubleshooting-tunnels
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+#      classes: wide
+      read_time: true
+      comments: false
+      share: false
+      related: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
