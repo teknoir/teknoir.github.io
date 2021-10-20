@@ -2,6 +2,8 @@
 layout: single
 title: About
 permalink: /about/
+header:
+    image: /assets/teknoir-skyline-narrow.png
 ---
 
 In the year 2019, a group of misfits banded together to reshape the future of industry by creating artificial 
