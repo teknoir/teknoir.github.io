@@ -1,5 +1,5 @@
 ---
-title: Add your first device
+title: Ingest and aggregate data
 layout: single
 permalink: /getting-started/ingest-and-aggregate-data/
 ---

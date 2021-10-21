@@ -1,5 +1,5 @@
 ---
-title: Add your first device
+title: Collate data
 layout: single
 permalink: /getting-started/collate-data/
 ---

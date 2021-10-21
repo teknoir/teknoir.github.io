@@ -1,5 +1,5 @@
 ---
-title: Add your first device
+title: Deploy your first App
 layout: single
 permalink: /getting-started/deploy-your-first-app/
 ---
