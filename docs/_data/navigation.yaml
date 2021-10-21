@@ -17,12 +17,12 @@ docs:
         url: /getting-started/sign-up/
       - title: "Add your first device"
         url: /getting-started/add-your-first-device/
+      - title: "Deploy your first App"
+        url: /getting-started/deploy-your-first-app/
       - title: "Collate data"
-        url: /under-construction/
-      - title: "Deploy your first ML App"
-        url: /under-construction/
+        url: /getting-started/collate-data/
       - title: "Ingest and aggregate data"
-        url: /under-construction/
+        url: /getting-started/ingest-and-aggregate-data/
       - title: "Label data"
         url: /under-construction/
       - title: "Train a new custom ML model"
