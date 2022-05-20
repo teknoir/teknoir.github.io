@@ -14,7 +14,7 @@ If you notice that there are no images being received from a device, there are w
 Connect to the Devstudio running on the device to see if images are picked up there.
 
 **Create http tunnel to device**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on the device name
 4. Enable tunneling, and if there is no devstudio tunnel already click `+ Add`, to add a devstudio tunnel
@@ -35,7 +35,7 @@ Connect to the Devstudio running on the device to see if images are picked up th
 To see if the camera app works correctly you need to run some commands on the device.
 
 **Create ssh tunnel to device**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on the device name
 4. Enable tunneling, and if there is no ssh tunnel already click `+ Add`, to add a ssh tunnel
@@ -68,7 +68,7 @@ sudo kubectl logs -f $(sudo kubectl get pods -l app=camera -o name)
 I you think the camera might be missconfigured, you can try to see if it is discoverable.
 
 **Create ssh tunnel to device**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on the device name
 4. Enable tunneling, and if there is no ssh tunnel already click `+ Add`, to add a ssh tunnel
@@ -99,7 +99,7 @@ avahi-browse -rt _axis-video._tcp
 If you need to change settings on the camera, you can do that via an external tunnel via the device.
 
 **Create http tunnel to camera**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on the device name
 4. Enable tunneling, and if there is no camera tunnel already click `+ Add`, to add a camera tunnel

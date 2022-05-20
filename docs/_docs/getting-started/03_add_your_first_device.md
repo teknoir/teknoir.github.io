@@ -5,7 +5,7 @@ permalink: /getting-started/add-your-first-device/
 ---
 
 If you have a working [supported](/device-management/#supported-devices) device connected to internet you can create a 
-device specific installer [here](https://console.teknoir.cloud/_/devices/new).
+device specific installer [here](https://teknoir.cloud/_/devices/new).
 
 **Note:** This installer can only be used on one device or you will have multiple devices connecting with the same
 credentials. That wont work!

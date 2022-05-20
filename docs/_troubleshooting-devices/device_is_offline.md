@@ -21,7 +21,7 @@ the device.
 If you need to login on an offline device.
 
 **Get credentials**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on the device name
 

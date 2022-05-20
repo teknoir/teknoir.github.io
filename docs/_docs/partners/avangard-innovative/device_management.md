@@ -32,7 +32,7 @@ is powered up.
 > The devices use the same Wifi credentials.
 
 **Find Wifi credentials**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on edit the device (the pen icon)
 4. The credentials can be found in the Wifi section
@@ -44,7 +44,7 @@ is powered up.
 The device will not automatically jump to the maintenance Wifi, it will only connect to it if restarted/rebooted.
 
 ### Login to the Teknoir Console
-http://console.teknoir.cloud
+http://teknoir.cloud
 
 #### Choose namespace
 Has to match the SD card / device
@@ -64,7 +64,7 @@ Green ok
 To be able to see where the camera is pointing, picture quality and edit settings, a tunnel can be created.
 
 **Create http tunnel to camera**
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Click on edit the device (the pen icon)
 4. Enable tunneling, and if there is no camera tunnel already click `+ Add`, to add a camera tunnel

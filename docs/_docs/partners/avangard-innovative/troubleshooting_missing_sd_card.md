@@ -9,7 +9,7 @@ tags:
 
 If a SD-card is missing it is easy to create a new.
 
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/)
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
 2. Choose namespace
 3. Find the device that is missing its SD-card
 4. Continue to follow the instructions [here](https://teknoir.github.io/device-management/#create-a-configured-os-image)

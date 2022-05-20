@@ -48,7 +48,7 @@ manual intervention.
 **Note:** To generate an OS image for a device can take up to 1h depending on hardware.
 {: .notice--warning}
 
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/).
+1. Browse to [devices](https://teknoir.cloud/_/devices/).
 2. Choose namespace.
 3. Click **+ NEW DEVICE** button.
 4. Fill out the input fields, descriptions below.
@@ -124,7 +124,7 @@ Add and remove metadata/labels that later can be used for managing devices at sc
 The installer is created for all types of devices, but if the `generic` hardware option is chosen it is the only thing to
 be generated for that device. The process usually takes less than 30 seconds.
 
-1. Browse to [devices](https://console.teknoir.cloud/_/devices/).
+1. Browse to [devices](https://teknoir.cloud/_/devices/).
 2. Choose namespace.
 3. Click the device name.
 4. Scroll down to **Resources** and wait until the **Download** and **Copy** links for the installer become active, this should take no longer than 60 seconds.

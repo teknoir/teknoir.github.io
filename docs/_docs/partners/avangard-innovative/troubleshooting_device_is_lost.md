@@ -23,16 +23,16 @@ Just note the name of the device, follow the steps in [Missing SD-card](#missing
 There are custom monitoring built for Avangard-Innovative.
 
 #### A single device dashboard
-[Avangard Device](https://console.teknoir.cloud/_/avangard-production/grafana/d/avangarddevices/avangard-device)
+[Avangard Device](https://teknoir.cloud/_/avangard-production/grafana/d/avangarddevices/avangard-device)
 
 Pick one device at the time from the dropdown at the top to view detailed info about this device. 
 
 #### An aggregated view of devices
-[Avangard All Devices](https://console.teknoir.cloud/_/avangard-production/grafana/d/avangarddevices/avangard-all-devices)
+[Avangard All Devices](https://teknoir.cloud/_/avangard-production/grafana/d/avangarddevices/avangard-all-devices)
 
 This dashboard show an aggregated view of the devices.
 
 #### Devices coming back from being lost
-[Devices coming back from the dead](https://console.teknoir.cloud/_/avangard-production/grafana/d/backfromdead/devices-coming-back-from-the-dead)
+[Devices coming back from the dead](https://teknoir.cloud/_/avangard-production/grafana/d/backfromdead/devices-coming-back-from-the-dead)
 
 This dashboard list information about when and how long devices has been lost.
