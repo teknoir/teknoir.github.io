@@ -11,7 +11,7 @@ tags:
 
 ## Device networking
 If the device cannot connect to/through a network that is connected to internet it will work offline, but it cannot 
-connect to the Tenknoir platform.
+connect to the Teknoir platform.
 
 You can check if the device has internet connection with the command ping:
 

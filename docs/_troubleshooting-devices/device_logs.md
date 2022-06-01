@@ -10,6 +10,7 @@ categories:
 ---
 
 ## Device logs
+Accessing system or app logs can make the situation clearer. Here is a guide on how to do that!
 
 ### System logs
 Listing boots, run:
