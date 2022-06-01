@@ -1,5 +1,5 @@
 ---
-title: Device is offline
+title: Device access
 layout: single
 toc: true
 categories:
@@ -9,7 +9,7 @@ tags:
   - troubleshooting
 ---
 
-## Device is offline
+## Device access
 If the device does not go green in the console there is not much we can do remotely.
 Follow the guides below to do local assessment of the situation.
 
@@ -44,21 +44,45 @@ ssh <username>@<device name>.local
 local network and mDNS has to work on that network.
 {: .notice--info}
 
-### Network connectivity
-If the device cannot connect to/through a network that is connected to internet it will work offline.
-Offline mode and offline maintenance is not yet built out. For now this is not a mode we support.
+### Login on online devices
 
-If the device is supposed to be online please check the following.
+#### SSH tunnel
 
-#### Ethernet
-1. Check cables
-2. TBD
+**Create ssh tunnel to device**
+1. Browse to [devices](https://teknoir.cloud/_/devices/)
+2. Choose namespace
+3. Click on the device name
+4. Enable tunneling, and if there is no ssh tunnel already click `+ Add`, to add a ssh tunnel
+5. Fill in:
+    * type: ssh
+    * name: ssh
+    * target: localhost
+    * port: 22
 
-#### Wifi
-1. Check that SSID and credentials match
-2. TBD
+**Note:** Each time tunneling is enabled it can take up to 5 minutes for tunnels to be available. This 
+is due to the security settings and certifictates being propagated to the different services.
+{: .notice--info}
 
-#### Other
-If the device is connected with GSM, LTE, 5G or other method please make sure the Linux network interface is given a valid IP.
-Try to verify internet connectivity with for example curl.
+**Open web terminal to device**
+1. To browse to ssh tunnel edit same device again
+2. Click link to ssh tunnel
+3. Run commands
 
+Example:
+```bash
+sudo kubectl get pods
+```
+
+**Note:** On the device page you can see the username and password, the credentials, you need to use to elevate 
+permissions in linux.
+{: .notice--info}
+
+### Escalating permissions
+For some commands you need to be root, to become root:
+
+```bash
+sudo su
+```
+
+And then use the user password for the user you logged in with.
+It can be found on the device page in our platform.

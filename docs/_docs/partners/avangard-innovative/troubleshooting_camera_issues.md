@@ -95,7 +95,7 @@ avahi-browse -rt _axis-video._tcp
 
 > If the camera is on the same network, and functional, you should se the IP address to the camera in the terminal.
 
-### Change settings wia camera webgui
+### Change settings via camera webgui
 If you need to change settings on the camera, you can do that via an external tunnel via the device.
 
 **Create http tunnel to camera**
