@@ -3,10 +3,10 @@ title: Device logs
 layout: single
 toc: true
 categories:
-- troubleshooting
-  tags:
-- troubleshooting-devices
-- troubleshooting
+  - troubleshooting
+tags:
+  - troubleshooting-devices
+  - troubleshooting
 ---
 
 ## Device logs
