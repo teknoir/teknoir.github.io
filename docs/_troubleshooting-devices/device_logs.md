@@ -100,7 +100,7 @@ And similar for NetworkManager
 Teknoir subsystems all run in K3s, a version of Kubernetes by Rancher.
 
 **Note:** that you have to be root for the following commands!!! Please check out the 
-[access](/troubleshooting/#device-access) section for how to elevate permissions.
+[access](/troubleshooting-devices/device_access/) section for how to elevate permissions.
 {: .notice--info}
 
 #### Status
