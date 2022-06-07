@@ -29,7 +29,8 @@ Before actually powering it up please reed this full section, to make sure you a
 The device can start up on the SIM-cards data plan but to minimize the usage a maintenance Wifi can be set up before it
 is powered up.
 
-> The devices use the same Wifi credentials.
+**Note:** All devices use the same Wifi credentials.
+{: .notice--info}
 
 **Find Wifi credentials**
 1. Browse to [devices](https://teknoir.cloud/_/devices/)
@@ -39,7 +40,7 @@ is powered up.
 
 > Please refer to the Wifi router documentation on how to set up WPA2 PSK Wifi.
 
-> **Due to technical limitations at the time of creation some of the first 81 devices does not have this feature.**
+**Note:** Due to technical limitations at the time of device creation some of the first 81 devices does not have this feature.
 
 The device will not automatically jump to the maintenance Wifi, it will only connect to it if restarted/rebooted.
 
@@ -57,8 +58,9 @@ If rotating, it has never connected - double check name/marking of device/sd-car
 If red hover to see when device was last seen + error
 Green ok
 
-> A good idea is, once done with configuration, turn off the maintenance Wifi and perform this uplink verification again
-> , just to make sure the LTE setup is ok
+**Note:** A good idea is, once done with configuration, turn off the maintenance Wifi and perform this uplink 
+verification again, just to make sure the LTE setup is ok
+{: .notice--warning}
 
 #### Create tunnel to camera
 To be able to see where the camera is pointing, picture quality and edit settings, a tunnel can be created.
@@ -74,18 +76,14 @@ To be able to see where the camera is pointing, picture quality and edit setting
     * host: <IP to camera, default is 192.168.0.90>
     * port: 80
 
-> Remember, that if the camera is on LTE data plan, you might have to be quick about it. The camera streaming video
-> will consume a lot of data.
-
-> Consider creating a maintenance Wifi before doing this.
+**Note:** Remember, that if the camera is on LTE data plan, you might have to be quick about it. The camera streaming video
+will consume a lot of data. Consider creating a maintenance Wifi before doing this.
+{: .notice--warning}
 
 #### Browse camera settings via tunnel
 To browse to tunnel edit same device again
 Click alternative link to camera tunnel
 
-> Credentials for camera is username: **root** and password: **pass**
-
-##### Edit camera settings
-What do we need to change from default settings?
-IR-auto -> disable?
-Focus settings?
+**Note:** Default credentials for Axis camera is username: **root** and password: **pass**, the Bosch camera will make 
+you set it first time.
+{: .notice--info}

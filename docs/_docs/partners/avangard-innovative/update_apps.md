@@ -74,11 +74,11 @@ sustayn app node to match the name of the updated version, i.e., the name of the
 created (`0.0.1-alpha`).
 
 **Image name for arm based machines:** 
-us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet:<version>
+us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet:VERSION
 {: .notice--info}
 
 **Image name for  arm64v8(Texgra/Jetson family) based with NVIDIA GPU acceleration:** 
-us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet-nv:<version>
+us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet-nv:VERSION
 {: .notice--info}
  
 1. Navigate to the [DevStudio Servers](https://teknoir.cloud/_/devstudios/?ns=avangard-production) section using 
@@ -132,7 +132,7 @@ Perform the following steps:
 4. Browse to the [ml-ops](https://teknoir.cloud/_/devstudio/avangard-production/ml-ops/) Devstudio
 5. Before running the pipeline, update the `flows_name` field in the `Build new versions of Sustayn Event Processing app` node
 6. Press `Done`
-7. Press`Deploy`
+7. Press `Deploy`
 8. Start the pipeline and see the downstream node change status
 10. Now you can find the new pipeline run, in the Teknoir Console menu, under Workflow -> Runs
 11. Navigate to the [configure-devices](https://teknoir.cloud/_/devstudio/avangard-production/configure-devices/) Devstudio
@@ -143,5 +143,5 @@ Perform the following steps:
 17. Deploy in the top right corner of the interface
 
 **Image name for arm based machines:**
-us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn-event-processing:<version>
+us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn-event-processing:VERSION
 {: .notice--info}
