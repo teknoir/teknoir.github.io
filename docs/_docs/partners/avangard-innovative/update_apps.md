@@ -55,7 +55,7 @@ Perform the following steps:
    <img src="/assets/avangard/VERSION.png" alt="image-status" style="zoom:100%;" />
 3. Click `Done`.
 4. Click `Deploy`.
-5. Click `Click here to start` and see the `Build new versions of Sustayn Darknet App` get a new status.
+5. Click `Click here to start` and see the `Build new versions of Sustayn Darknet App` node get a new status.
 6. Now you can find the new pipeline run, in the Teknoir Console menu, under Workflow -> Runs.
    When all steps are cleared (green checkmarks), the run has completed without errors. The workflow pipeline is 
    interactive and you easily can see all the variables and important log entries to identify potential errors in the 
@@ -125,14 +125,13 @@ Perform the following steps:
 2. Create a new folder inside /flows with the name of the new version, for example `0.0.1-alpha`
 3. Open the newly created folder and upload the `flows.json` file
 4. Browse to the [ml-ops](https://teknoir.cloud/_/devstudio/avangard-production/ml-ops/) Devstudio
-5. Before running the pipeline, update the `flows_name` field in the `Build new versions of Sustayn Event Processing app`
+5. Before running the pipeline, update the `flows_name` field in the `Build new versions of Sustayn Event Processing app` node
 6. Press `Done`
 7. Press`Deploy`
-8. Start the pipeline
-9. Run the notebook from the menu (Run -> Run All Cells)
+8. Start the pipeline and see the downstream node change status
 10. Now you can find the new pipeline run, in the Teknoir Console menu, under Workflow -> Runs
 11. Navigate to the [configure-devices](https://teknoir.cloud/_/devstudio/avangard-production/configure-devices/) Devstudio
-13. Double-click the add `devstudio` app node you want to update
+13. Double-click the `add devstudio` app node you want to update
 14. Change the image name to match the name of the new app version then click Done
 15. Now, double-click the configure node to the far right in the flow
 16. Select which device(s) you want to deploy the new version of the app

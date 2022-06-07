@@ -13,6 +13,7 @@ Labels can also be used for configuration management, if there is some reason to
 We also use it to denominate "patch level", to keep track of Operating System patches.
 
 ## Format
+
 Labels in the form "key:value"
 
 ### Examples
@@ -20,7 +21,7 @@ Labels in the form "key:value"
 Device #1:
 
 | Key       | Value           |
-|:----------|----------------:|
+|:----------|:----------------|
 | hardware  | jetson-nano-b00 |
 | camera    | axis            |
 | city      | houston         |
@@ -29,7 +30,7 @@ Device #1:
 Device #2:
 
 | Key       | Value           |
-|:----------|----------------:|
+|:----------|:----------------|
 | hardware  | raspberry-pi    |
 | camera    | bosch           |
 | city      | austin          |
@@ -37,7 +38,16 @@ Device #2:
 
 
 ## Configuration management
-TBD
+
+In the `Configure device` node in the Devstudio, enable `Select Devices by Label` mode. 
+<img src="/assets/avangard/select_device_by_label.png" alt="image-status" style="zoom:100%;" />
+Then `+add` the labels it should match.
+<img src="/assets/avangard/select_device_by_label_2.png" alt="image-status" style="zoom:100%;" />
 
 ## Patch level
-TBD
+
+We use Ansible to patch live devices, and to make sure we have successfully patched a device we write or update a label
+on the device as the last step.
+
+The Teknoir Ansible inventory use the device name, namespace and the labels to create a versatile set of device groups.
+Please refer to the github repository: https://github.com/teknoir/ansible
