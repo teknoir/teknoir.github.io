@@ -14,7 +14,8 @@ app. Some of the differences will be touched in a separate section here on this 
 This process is meant to be automated fully and the node starting the pipeline should be triggred by another pipeline 
 node that trains the new model. **This is a description of the manual steps!**
 
-> The process of updating the apps can be subject to change as we improve features of the Teknoir platform.
+**Note:** The process of updating the apps can be subject to change as we improve features of the Teknoir platform.
+{: .notice--warning}
 
 ### Updating the Darknet (sustayn) app
 The following is a step-by-step guide to updating the machine learning model for
@@ -43,8 +44,10 @@ Perform the following steps:
    <img src="/assets/avangard/new_folder.png" alt="image-status" style="zoom:100%;" />
 4. Open the newly created folder and upload the model.cfg, model.weights and obj.names files using the action menu again.
 5. Watch the progress bar and wait for the upload to finish.
-   > When the upload is finished, ensure the file sizes are correct and representative of your local file sizes to avoid
-   > corrupt browser uploads.
+
+**Note:** When the upload is finished, ensure the file sizes are correct and representative of your local file sizes to avoid
+corrupt browser uploads.
+{: .notice--warning}
 
 #### Run the pipeline
 1. Browse to the [ml-ops](https://teknoir.cloud/_/devstudio/avangard-production/ml-ops/) Devstudio. Navigate in the 
@@ -70,12 +73,14 @@ Deploying a new version of the app to selected device(s) is as simple as updatin
 sustayn app node to match the name of the updated version, i.e., the name of the folder we just 
 created (`0.0.1-alpha`).
 
-> Image name for arm based machines:
-> us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet:<version>
+**Image name for arm based machines:** 
+us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet:<version>
+{: .notice--info}
 
-> Image name for  arm64v8(Texgra/Jetson family) based with NVIDIA GPU acceleration:
-> us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet-nv:<version>
-
+**Image name for  arm64v8(Texgra/Jetson family) based with NVIDIA GPU acceleration:** 
+us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn_darknet-nv:<version>
+{: .notice--info}
+ 
 1. Navigate to the [DevStudio Servers](https://teknoir.cloud/_/devstudios/?ns=avangard-production) section using 
    the left side menu in the Teknoir Console.
 2. Connect to Your DevStudio Server and make sure you're viewing the Device Config tab.
@@ -137,5 +142,6 @@ Perform the following steps:
 16. Select which device(s) you want to deploy the new version of the app
 17. Deploy in the top right corner of the interface
 
-> Image name for arm based machines:
-> us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn-event-processing:<version>
+**Image name for arm based machines:**
+us-central1-docker.pkg.dev/teknoir/avangard-production/sustayn-event-processing:<version>
+{: .notice--info}
