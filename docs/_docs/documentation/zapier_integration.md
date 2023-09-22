@@ -4,9 +4,6 @@ toc: true
 permalink: /zapier-integration/
 ---
 
-
-# Zapier Integration
-
 In order to integrate DevStudio with Zapier you should use the partner app Teknoir Operational AI Apps.
 
 To help in configuring Zaps, there is a custom node-red plugin (https://github.com/teknoir/node-red-teknoir-zapier) that can be installed which will provide two nodes that generate the URLs required for Zap integration.
