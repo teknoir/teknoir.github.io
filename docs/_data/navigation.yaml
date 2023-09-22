@@ -34,6 +34,8 @@ docs:
     children:
       - title: "Device Management"
         url: /device-management/
+      - title: "Zapier Integration"
+        url: /zapier-integration/
       - title: "App Management"
         url: /under-construction/
       - title: "Tunnel Management"
