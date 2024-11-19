@@ -1,0 +1,7 @@
+name: 'Build TechDocs'
+description: 'Build TechDocs'
+runs:
+  using: 'docker'
+  image: 'docker://spotify/techdocs:v1.2.5'
+  args:
+    - 'build'
