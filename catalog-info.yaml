@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  title: teknoir.github.io
+  name: teknoir.github.io
+  namespace: teknoir
+  description: Documentation project for the Teknoir platform and partners.
+  annotations:
+    "github.com/project-slug": teknoir/teknoir.github.io
+    "backstage.io/techdocs-ref": dir:.
+  tags:
+    - documentation
+spec:
+  type: documentation
+  owner: group:teknoir/public
+  lifecycle: experimental
